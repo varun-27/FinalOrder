@@ -1,4 +1,4 @@
-FROM openjdk:11
+FROM openjdk:11.0
 VOLUME /tmp
 COPY /target/OrderMS-0.0.1-SNAPSHOT.jar /usr/app/
 WORKDIR /usr/app
